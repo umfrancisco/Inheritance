@@ -5,7 +5,7 @@ public class Main {
 		Animal animal = new Animal("Generic Animal", "Huge", 400);
 		doAnimalStuff(animal, "slow");
 		
-		Dog dog = new Dog("Mutt", "Big", 50);
+		Dog dog = new Dog("Mutt", "Big", 50, "Perky", "Curled");
 		doAnimalStuff(dog, "fast");
 	}
 	
