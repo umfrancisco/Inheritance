@@ -11,6 +11,15 @@ public class Dog extends Animal {
 		this.tailShape = tailShape;
 	}
 	
+	public void makeNoise() {
+		
+	}
+	
+	@Override
+	public void move(String speed) {
+		super.move(speed);
+	}
+	
 	@Override
 	public String toString() {
 		return "Dog={"+earShape+", "+tailShape+"} "+super.toString(); 
